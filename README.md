@@ -49,3 +49,7 @@ In order to run the program on the Proteus device, place a button board input in
 # Problems During Testing
 
 The first version of the program which measured frequency from 1 period of on and off values separately was unable to display one of the possible frequencies. This occurred because a delay occurred between loops that caused the measurement of on time to be shorter than expected. This was fixed by recording data for multiple periods rather than just one. Another problem during the testing of the program was the Proteus constantly displayed a frequency of 40 Hz for receiving a signal of 65 Hz. The error was fixed, when it was realized that the program was testing for 55 Hz rather than 65 Hz.
+
+# Notice
+
+Use of this project by any other student to complete the Software Design Project assignment at any time may be considered academic misconduct by The Ohio State University.
